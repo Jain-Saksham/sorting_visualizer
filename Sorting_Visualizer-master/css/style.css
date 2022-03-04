@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: turquoise;
+  color: hotpink;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 60%;
+  grid-template-columns: 30% 60%;
+  -webkit-column-gap: 10%;
+  column-gap: 10%;
+  padding: 0% 5%;
+}
+
+nav .array-inputs {
+  color: maroon;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+  grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_size {
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_speed {
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_generate {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: green;
+  padding: 4% 0% ;
+  
+}
+
+nav .array-inputs #a_generate:hover {
+  background-color: white;
+  border-radius:10px;
+  cursor: pointer;
+}
+
+nav .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+  display: inline-block;
+  font-size: xxx-large;
+  padding: 3% 0%;
+  text-align: center;
+}
+
+nav .header_right .algos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (19%);
+  grid-template-columns: repeat(6, 19%);
+  place-content: center;
+  
+}
+
+nav .header_right .algos button {
+  background-color: transparent;
+  border: none;
+  color: darkcyan;
+  outline: none;
+  padding: 5% 0%;
+  font-size: x-large;
+}
+
+nav .header_right .algos button:hover {
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: peachpuff;
+  color: Red;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: peachpuff;
+  cursor: pointer;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+  grid-template-columns: 20% 60% 20%;
+  background-color: plum;
+  
+}
+
+section #Info_Cont1 {
+  color: orangered;
+  padding: 20%;
+}
+
+section #array_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  height: 74vh;
+}
+
+section #Info_Cont2 {
+  color: orangered;
+  padding: 20%;
+}
+
+.hide {
+  display: none;
+}
+
